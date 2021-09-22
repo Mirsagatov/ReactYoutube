@@ -1,0 +1,70 @@
+.tabbed-header {
+  width: 100%;
+}
+.tabbed-header__banner {
+  width: 100%;
+}
+.tabbed-header__banner-img {
+  width: 100%;
+  min-height: 280px;
+}
+.tabbed-header__channel-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+.tabbed-header__channel {
+  width: 23.5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tabbed-header__channel-img {
+  max-width: 80px;
+  max-height: 80px;
+}
+.tabbed-header__channel-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.tabbed-header__channel-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 33px;
+  color: #19202C;
+}
+.tabbed-header__channel-paragraph {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  color: #C2C2C2;
+  margin-top: -15px;
+}
+.tabbed-header__subscribe {
+  width: 15.5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tabbed-header__subscribe-btn {
+  background-color: #FF0000;
+  border-radius: 20px;
+  border: none;
+  padding: 9px 18px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.subscribe {
+  max-width: 26px;
+  max-height: 26px;
+}/*# sourceMappingURL=TabbedHeader.css.map */

@@ -1,0 +1,105 @@
+.dollie-blair__videos {
+  width: 100%;
+}
+.dollie-blair__videos-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dollie-blair__videos-link {
+  width: 17%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dollie-blair__videos-img {
+  max-width: 50px;
+  max-height: 50px;
+}
+.dollie-blair__videos-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 33px;
+  color: #19202C;
+}
+.dollie-blair__videos-move-buttons {
+  width: 6%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dollie-blair__videos-backward-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  border: none;
+  padding: 0;
+}
+.dollie-blair__videos-forward-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  border: none;
+  padding: 0;
+}
+.dollie-blair__videos-list {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.dollie-blair__videos-item {
+  width: 18.5%;
+  max-height: 200px;
+}
+.dollie-blair__videos-item-link {
+  width: 100%;
+}
+.dollie-blair__videos-item-img {
+  min-width: 100%;
+  max-height: 140px;
+  border-radius: 14px;
+}
+.dollie-blair__videos-item-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #19202C;
+  margin: 5px 0 0 0;
+  padding: 0;
+}
+.dollie-blair__videos-item__stats-list {
+  min-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: -10px 0 0 0;
+  padding: 0;
+}
+.dollie-blair__videos-item__stats-item {
+  width: 30%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.dollie-blair__videos-item__stats-number {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  color: #C2C2C2;
+  margin-right: 6px;
+}
+.dollie-blair__videos-item__stats-title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  color: #C2C2C2;
+}/*# sourceMappingURL=DollieBlairVideos.css.map */

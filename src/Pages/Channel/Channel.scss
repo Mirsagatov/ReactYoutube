@@ -1,0 +1,20 @@
+.channel-main {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    padding: 0 0 0 1%;
+    margin-top: 40px;
+
+    &__searched-themes {
+        width: 84%;
+    }
+
+    &__introductory {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-top: 10px;
+    }
+
+}

@@ -1,0 +1,67 @@
+.comment {
+  width: 100%;
+}
+.comment-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.comment-header-main {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.comment-logo {
+  max-width: 70px;
+  max-height: 70px;
+  margin-top: 20px;
+}
+.comment-main {
+  width: 86%;
+}
+.comment-main__title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 33px;
+  color: #19202C;
+}
+.comment-main__date {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  color: #C2C2C2;
+  margin-top: -10px;
+}
+.comment-main__content {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+  mix-blend-mode: normal;
+  opacity: 0.6;
+}
+.comment-main__showmore-btn {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 25px;
+  color: #C2C2C2;
+}
+.comment-subscribe-btn {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #FF0000;
+  border-radius: 20px;
+  padding: 8px 16px;
+  border: none;
+  margin-top: 20px;
+}/*# sourceMappingURL=Comment.css.map */

@@ -1,0 +1,39 @@
+.recommended-channels {
+  width: 16%;
+}
+.recommended-channels__title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #C2C2C2;
+}
+.recommended-channels__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.recommended-channels__item-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.recommended-channels__item-img {
+  max-width: 50px;
+  max-height: 50px;
+}
+.recommended-channels__item-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  color: #19202C;
+  margin-left: 12px;
+}
+.recommended-channels__item:nth-child(2), .recommended-channels__item:last-child {
+  margin-top: 25px;
+}
+.recommended-channels__item:first-child {
+  margin-top: 30px;
+}/*# sourceMappingURL=RecommendedChannels.css.map */

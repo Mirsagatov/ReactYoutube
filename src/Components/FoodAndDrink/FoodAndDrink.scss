@@ -1,0 +1,152 @@
+.food-drink{
+    &__videos {
+        width: 100%;
+        margin-top: 160px;
+    }
+    
+    &__videos-header {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__videos-link {
+        width: 41%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__videos-img {
+        max-width: 50px;
+        max-height: 50px;
+    }
+
+    &__videos-title {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 33px;
+        color: #19202C;
+    }
+
+    &__videos-content {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        color: #C2C2C2;
+    }
+
+    &__videos-subscribe-button {
+        background-color: #FF0000;
+        border-radius: 20px;
+        border: none;
+        padding: 9px 18px;
+
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    &__videos-move-buttons {
+        width: 6%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__videos-backward-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        border: none;
+        padding: 0;
+    }
+
+    &__videos-forward-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        border: none;
+        padding: 0;
+    }
+
+
+    &__videos-list {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    &__videos-item {
+        width: 18.5%;
+        max-height:200px;
+    }
+
+    &__videos-item-link {
+        width: 100%;
+        
+    }
+
+    &__videos-item-img {
+        min-width: 100%;
+        max-height: 140px;
+        border-radius: 14px;
+    }
+
+    &__videos-item-title {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 20px;
+        color: #19202C;
+
+        margin: 5px 0 0 0;
+        padding: 0;
+    }
+
+
+    &__videos-item__stats-list{
+        min-width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: -10px 0 0 0;
+        padding: 0;
+        
+    }
+
+    &__videos-item__stats-item {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    &__videos-item__stats-number{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 16px;
+
+        color: #C2C2C2;
+        margin-right: 2px;
+    }
+
+    &__videos-item__stats-title {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 16px;
+
+        color: #C2C2C2;
+    }
+}

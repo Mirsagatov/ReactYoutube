@@ -1,0 +1,75 @@
+.top-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0 0 1%;
+}
+.top-navbar__youtube-accesses {
+  width: 64%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.top-navbar__youtube-home {
+  width: 18%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.top-navbar__youtube-search {
+  position: relative;
+  max-width: 70%;
+  min-height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.top-navbar__search-input {
+  min-width: 600px;
+  color: black;
+  min-height: 40px;
+  background-color: #EBEBEB;
+  mix-blend-mode: normal;
+  opacity: 0.3;
+  border-radius: 22px;
+  border: 2px solid #EBEBEB;
+  outline: none;
+  padding: 0px 40px 0 16px;
+}
+.top-navbar__youtube-search-link {
+  position: absolute;
+  top: 35px;
+  right: 600px;
+  display: flex;
+  align-items: center;
+}
+.top-navbar__youtube-essentials {
+  width: 17%;
+}
+.top-navbar__essentials-list {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.top-navbar__essentials-link {
+  display: block;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.top-navbar__essentials-link:last-child {
+  width: 42px;
+  height: 42px;
+}
+.top-navbar__essentials-userpicture {
+  width: 42px;
+  height: 42px;
+}
+
+.create, .youtubeapps, .notifications {
+  max-width: 27px;
+  max-height: 32px;
+}/*# sourceMappingURL=TopNavbar.css.map */

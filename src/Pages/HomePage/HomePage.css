@@ -1,0 +1,10 @@
+.home-main {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0 0 1%;
+  margin-top: 40px;
+}
+.home-main__searched-themes {
+  width: 84%;
+}/*# sourceMappingURL=HomePage.css.map */

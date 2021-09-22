@@ -1,0 +1,13 @@
+.video-player-main {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    padding: 0 0 0 1%;
+    margin-top: 40px;
+
+    &__searched-themes {
+        min-width: 64%;
+    }
+
+}

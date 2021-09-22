@@ -1,0 +1,104 @@
+.top-navbar {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0 0 1%;
+
+    &__youtube-accesses {
+        width: 64%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__youtube-home {
+        width: 18%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    // &__youtube-menu-link {}
+
+    // &__youtube-home-link {}
+
+    &__youtube-search {
+        position: relative;
+
+        max-width: 70%;
+        min-height: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        
+    }
+    &__search-input {
+
+        min-width: 600px;
+        color: black;
+        min-height: 40px;
+        background-color: #EBEBEB;
+        mix-blend-mode: normal;
+        opacity: 0.3;
+        border-radius: 22px;
+        border: 2px solid #EBEBEB;
+        outline: none;
+        padding: 0px 40px 0 16px;
+    }
+
+    &__youtube-search-link {
+        position: absolute;
+        top: 35px;
+        right: 600px;
+        display: flex;
+        align-items: center;
+    }
+
+
+    &__youtube-essentials {
+        width: 17%;
+    }
+
+    &__essentials-list {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    // &__essentials-item{}
+
+    &__essentials-link{
+        display: block;
+        width: 32px;
+        height: 32px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__essentials-link:last-child {
+        width: 42px;
+        height: 42px;
+    }
+
+    &__essentials-userpicture {
+        width: 42px;
+        height: 42px;
+    }
+
+}
+
+.create, .youtubeapps, .notifications {
+    max-width: 27px;
+    max-height: 32px;
+}
+
+
+
+
+// .search {
+    
+// }
