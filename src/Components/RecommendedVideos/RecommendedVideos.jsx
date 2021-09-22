@@ -11,12 +11,14 @@ function RecommendedVideos() {
 
 
     const [video, setVideo] = React.useState([]);
+    const [loading, setLoading] =React.useState(true);
 
     React.useEffect(() => {
         fetch('https://jsonplaceholder.typicode.com/photos').then((response) =>
         response.json()).then((data) => {
             const slicedVideos =data.slice(0, 3);
             setVideo(slicedVideos);
+            setLoading(false);
         })
     }, []);
 
@@ -35,6 +37,7 @@ function RecommendedVideos() {
                 </div>
             </div>
             <ul className="recommended__videos-list">
+                {loading && <p>Loading ...</p>}
                 { video.length && 
                 video.map((row) => (
                     <li className="recommended__videos-item" key={row.id}>

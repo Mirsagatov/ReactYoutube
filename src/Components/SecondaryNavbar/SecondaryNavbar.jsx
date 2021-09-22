@@ -45,6 +45,13 @@ function SecondaryNavbar() {
                     <h2 className="secondary-navbar__primary-item-title">Subscriptions</h2>
                 </NavLink>
             </li>
+
+            <li className="secondary-navbar__primary-item">
+                <NavLink to="/channel" className="secondary-navbar__primary-item-link">
+                    <Library />
+                    <h2 className="secondary-navbar__primary-item-title">Library</h2>
+                </NavLink>
+            </li>
         </ul>
         
         <ul className="secondary-navbar__secondary-list">
@@ -93,7 +100,7 @@ function SecondaryNavbar() {
             <li className="secondary-navbar-secondary-item">
                 
                 <input className="show-more__accordion-input" type="checkbox" id="title1" />
-                <label className="show-more__accordion-label" for="title1">Show more</label>
+                <label className="show-more__accordion-label">Show more</label>
 
                 
                 <div className="show-more__accordion-content">

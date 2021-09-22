@@ -28,14 +28,7 @@ function TabbedHeader() {
                     <Subscribe />
                     <button type="subscribe" className="tabbed-header__subscribe-btn">Subscribe 2.3m</button>
 
-                    {/* <div className="tabbed-header__subscribe-move-buttons">
-                        <button className="tabbed-header__subscribe-backward-button">
-                            <LeftArrow />
-                        </button>
-                        <button className="tabbed-header__subscribe-forward-button">
-                            <RightArrow />
-                        </button>
-                    </div> */}
+                   
                 </div>
             </div>
         </div>

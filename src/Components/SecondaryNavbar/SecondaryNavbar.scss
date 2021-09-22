@@ -7,8 +7,9 @@
         width: 100%;
     }
 
-    // &__primary-item {
-    // }
+    &__primary-item:last-child {
+        display: none;
+     }
 
     &__primary-item-link {   
         display: flex;
@@ -250,3 +251,38 @@
 
 
 
+@media only screen and (max-width: 475px) {
+    .secondary-navbar {
+        width: 100%;
+
+        &__primary-list {
+            display: flex;
+            justify-content:space-between;
+            align-items: center;
+        }
+        &__primary-item:last-child {
+            display: block;
+        } 
+
+        &__primary-item-link {
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        &__secondary-list {
+            display: none;
+        }
+        &__subscriptions {
+            display: none;
+        }
+
+        &__setting-link {
+            display: none;
+        }
+
+    }
+
+   
+    
+
+  }

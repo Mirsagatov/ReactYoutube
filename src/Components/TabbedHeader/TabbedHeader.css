@@ -67,4 +67,72 @@
 .subscribe {
   max-width: 26px;
   max-height: 26px;
+}
+
+@media only screen and (max-width: 475px) {
+  .subscribe {
+    display: none;
+  }
+
+  .tabbed-header {
+    margin-bottom: 180px;
+    width: 100%;
+    position: relative;
+  }
+  .tabbed-header__banner {
+    width: 100%;
+  }
+  .tabbed-header__banner-img {
+    width: 100%;
+    min-height: 180px;
+  }
+  .tabbed-header__channel-header {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    position: absolute;
+    top: 120px;
+    left: 20px;
+    margin-top: 30px;
+  }
+  .tabbed-header__channel {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  .tabbed-header__channel-img {
+    max-width: 80px;
+    max-height: 80px;
+  }
+  .tabbed-header__channel-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .tabbed-header__channel-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 33px;
+    color: #19202C;
+  }
+  .tabbed-header__channel-paragraph {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    color: #C2C2C2;
+    margin-top: -15px;
+  }
+  .tabbed-header__subscribe {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 }/*# sourceMappingURL=TabbedHeader.css.map */

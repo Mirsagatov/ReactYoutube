@@ -101,4 +101,87 @@
 
 // .search {
     
+
 // }
+
+@media only screen and (max-width: 475px) {
+
+    .top-navbar {
+    
+      
+        padding: 0;
+    
+        &__youtube-accesses {
+            width: 64%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    
+        &__youtube-home {
+            width: 18%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    
+        // &__youtube-menu-link {}
+    
+         &__youtube-home-link {
+             margin-left: 10px;
+         }
+    
+        &__youtube-search {
+    
+            position: none;
+        }
+        &__search-input {
+    
+            display: none;
+        }
+    
+        &__youtube-search-link {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: none;
+        }
+    
+    
+        &__youtube-essentials {
+            width: 17%;
+        }
+    
+        &__essentials-list {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    
+         &__essentials-item:nth-child(1), &__essentials-item:nth-child(2), &__essentials-item:nth-child(3){
+             display: none;
+         }
+    
+        &__essentials-link{
+            display: block;
+            width: 32px;
+            height: 32px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        &__essentials-link:last-child {
+            width: 42px;
+            height: 42px;
+        }
+    
+        &__essentials-userpicture {
+            width: 42px;
+            height: 42px;
+        }
+    
+    }
+    
+  }

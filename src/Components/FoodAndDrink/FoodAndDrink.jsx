@@ -10,17 +10,20 @@ import RightArrow from "../Lib/Svg/DollieBlairVideosSvg/RightArrow";
 
 import {NavLink} from "react-router-dom";
 
+import Loading from "../Lib/Svg/Loading";
 
 function FoodAndDrink() {
 
 
     const [video, setVideo] = React.useState([]);
+    const [loading, setLoading] =React.useState(true);
 
     React.useEffect(() => {
         fetch('https://jsonplaceholder.typicode.com/photos').then((response) =>
         response.json()).then((data) => {
             const slicedVideos =data.slice(0, 5);
             setVideo(slicedVideos);
+            setLoading(false);
         })
     }, []);
 
@@ -45,6 +48,9 @@ function FoodAndDrink() {
             </div>
             </div>
             <ul className="food-drink__videos-list">
+
+            {loading && <p>Loading ...</p>}
+
                 { video.length && 
                 video.map((row) => (
                     <li className="food-drink__videos-item" key={row.id}>

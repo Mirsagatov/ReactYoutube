@@ -13,4 +13,15 @@
   justify-content: space-between;
   align-items: flex-start;
   margin-top: 10px;
+}
+
+@media only screen and (max-width: 475px) {
+  .channel-main {
+    flex-direction: column-reverse;
+    padding: 0;
+    margin-top: 10px;
+  }
+  .channel-main__searched-themes {
+    width: 100%;
+  }
 }/*# sourceMappingURL=Channel.css.map */

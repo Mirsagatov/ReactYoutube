@@ -66,4 +66,42 @@ iframe {
   width: 100%;
   border-radius: 14px;
   min-height: 500px;
+}
+
+@media only screen and (max-width: 475px) {
+  iframe {
+    min-height: 250px;
+  }
+
+  .video-player {
+    width: 100%;
+  }
+  .video-player__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 45px;
+    color: #192646;
+  }
+  .video-player__stats {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: -20px;
+    flex-direction: column;
+  }
+  .video-player__stats-title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    color: #C2C2C2;
+  }
+  .video-player__stats-list {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 }/*# sourceMappingURL=VideoPlayer.css.map */

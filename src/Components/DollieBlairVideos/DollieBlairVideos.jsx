@@ -8,6 +8,7 @@ import DollieBlair from "../../Assets/Images/SecondaryNavbarImg/GussieSingleton.
 import LeftArrow from "../Lib/Svg/DollieBlairVideosSvg/LeftArrow";
 import RightArrow from "../Lib/Svg/DollieBlairVideosSvg/RightArrow";
 
+
 import {NavLink} from "react-router-dom";
 
 function DollieBlairVideos() {
@@ -15,11 +16,14 @@ function DollieBlairVideos() {
 
     const [video, setVideo] = React.useState([]);
 
+    const [loading, setLoading] =React.useState(true);
+
     React.useEffect(() => {
         fetch('https://jsonplaceholder.typicode.com/photos').then((response) =>
         response.json()).then((data) => {
             const slicedVideos =data.slice(0, 5);
             setVideo(slicedVideos);
+            setLoading(false);
         })
     }, []);
 
@@ -40,6 +44,7 @@ function DollieBlairVideos() {
             </div>
             </div>
             <ul className="dollie-blair__videos-list">
+                {loading && <div>Loading ...</div>}
 
                 { video.length && 
                 video.map((row) => (

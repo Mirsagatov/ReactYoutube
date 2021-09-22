@@ -36,4 +36,10 @@
 }
 .recommended-channels__item:first-child {
   margin-top: 30px;
+}
+
+@media only screen and (max-width: 475px) {
+  .recommended-channels {
+    display: none;
+  }
 }/*# sourceMappingURL=RecommendedChannels.css.map */

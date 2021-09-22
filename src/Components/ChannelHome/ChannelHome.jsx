@@ -4,6 +4,7 @@ import Search from "../Lib/Svg/Search";
 import VideoCoverPage from "../../Assets/Images/TabbedHeaderImg/FirstVideoCoverPage.png";
 
 import {NavLink} from "react-router-dom";
+import Arrow from "../Lib/Svg/Arrow";
 
 function ChannelHome() {
     return (
@@ -46,6 +47,10 @@ function ChannelHome() {
                         </button>
                         <input placeholder="Search" type="text" name="search" className="channel-navbar-item-search" />
                             </li>
+
+                            <li className="channel-navbar-item">
+                    <Arrow />
+                     </li>
                     
                 </ul>
             </nav>

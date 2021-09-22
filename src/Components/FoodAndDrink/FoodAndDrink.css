@@ -121,4 +121,103 @@
   font-size: 13px;
   line-height: 16px;
   color: #C2C2C2;
+}
+
+@media only screen and (max-width: 475px) {
+  .food-drink__videos {
+    width: 100%;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #c2c2c2;
+    margin-bottom: 10px;
+  }
+  .food-drink__videos-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .food-drink__videos-link {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .food-drink__videos-img {
+    max-width: 50px;
+    max-height: 50px;
+  }
+  .food-drink__videos-content {
+    display: none;
+  }
+  .food-drink__videos-subscribe-button {
+    display: none;
+  }
+  .food-drink__videos-move-buttons {
+    display: none;
+  }
+  .food-drink__videos-backward-button {
+    display: none;
+  }
+  .food-drink__videos-forward-button {
+    display: none;
+  }
+  .food-drink__videos-list {
+    flex-wrap: wrap;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .food-drink__videos-item {
+    width: 100%;
+    margin-top: 20px;
+    max-height: 200px;
+  }
+  .food-drink__videos-item-link {
+    width: 100%;
+  }
+  .food-drink__videos-item-img {
+    min-width: 100%;
+    max-height: 160px;
+    border-radius: 14px;
+  }
+  .food-drink__videos-item-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #19202C;
+    margin: 5px 0 0 0;
+    padding: 0;
+  }
+  .food-drink__videos-item__stats-list {
+    min-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: -10px 0 0 0;
+    padding: 0;
+  }
+  .food-drink__videos-item__stats-item {
+    width: 30%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .food-drink__videos-item__stats-number {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    color: #C2C2C2;
+    margin-right: 6px;
+  }
+  .food-drink__videos-item__stats-title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    color: #C2C2C2;
+  }
 }/*# sourceMappingURL=FoodAndDrink.css.map */

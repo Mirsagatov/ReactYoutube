@@ -102,4 +102,51 @@
   font-size: 13px;
   line-height: 16px;
   color: #C2C2C2;
+}
+
+@media only screen and (max-width: 475px) {
+  .dollie-blair__videos {
+    width: 100%;
+  }
+  .dollie-blair__videos-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .dollie-blair__videos-link {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .dollie-blair__videos-img {
+    max-width: 50px;
+    max-height: 50px;
+  }
+  .dollie-blair__videos-move-buttons {
+    display: none;
+  }
+  .dollie-blair__videos-backward-button {
+    display: none;
+  }
+  .dollie-blair__videos-forward-button {
+    display: none;
+  }
+  .dollie-blair__videos-list {
+    flex-wrap: wrap;
+    margin-top: 10px;
+  }
+  .dollie-blair__videos-item {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .dollie-blair__videos-item-link {
+    width: 100%;
+  }
+  .dollie-blair__videos-item-img {
+    min-width: 100%;
+    max-height: 160px;
+    border-radius: 14px;
+  }
 }/*# sourceMappingURL=DollieBlairVideos.css.map */

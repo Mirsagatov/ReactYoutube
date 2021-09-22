@@ -93,4 +93,94 @@
   font-size: 13px;
   line-height: 16px;
   color: #C2C2C2;
+}
+
+@media only screen and (max-width: 475px) {
+  .recommended__videos {
+    width: 100%;
+  }
+  .recommended__videos-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .recommended__videos-link {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .recommended__videos-img {
+    max-width: 50px;
+    max-height: 50px;
+  }
+  .recommended__videos-move-buttons {
+    display: none;
+  }
+  .recommended__videos-backward-button {
+    display: none;
+  }
+  .recommended__videos-forward-button {
+    display: none;
+  }
+  .recommended__videos-list {
+    flex-wrap: wrap;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .recommended__videos-item {
+    width: 100%;
+    margin-top: 20px;
+    max-height: 200px;
+  }
+  .recommended__videos-item-link {
+    width: 100%;
+  }
+  .recommended__videos-item-img {
+    min-width: 100%;
+    max-height: 160px;
+    border-radius: 14px;
+  }
+  .recommended__videos-item-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #19202C;
+    margin: 5px 0 0 0;
+    padding: 0;
+  }
+  .recommended__videos-item__stats-list {
+    min-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: -10px 0 0 0;
+    padding: 0;
+  }
+  .recommended__videos-item__stats-item {
+    width: 30%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .recommended__videos-item__stats-number {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    color: #C2C2C2;
+    margin-right: 6px;
+  }
+  .recommended__videos-item__stats-title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    color: #C2C2C2;
+  }
 }/*# sourceMappingURL=RecommendedVideos.css.map */

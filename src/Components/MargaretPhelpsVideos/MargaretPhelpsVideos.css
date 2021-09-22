@@ -93,4 +93,55 @@
   font-size: 13px;
   line-height: 16px;
   color: #C2C2C2;
+}
+
+@media only screen and (max-width: 475px) {
+  .mergaret-phelps__videos {
+    width: 100%;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #c2c2c2;
+    margin-bottom: 10px;
+    margin-top: 24px;
+  }
+  .mergaret-phelps__videos-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .mergaret-phelps__videos-link {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .mergaret-phelps__videos-img {
+    max-width: 50px;
+    max-height: 50px;
+  }
+  .mergaret-phelps__videos-move-buttons {
+    display: none;
+  }
+  .mergaret-phelps__videos-backward-button {
+    display: none;
+  }
+  .mergaret-phelps__videos-forward-button {
+    display: none;
+  }
+  .mergaret-phelps__videos-list {
+    flex-wrap: wrap;
+    margin-top: 10px;
+  }
+  .mergaret-phelps__videos-item {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .mergaret-phelps__videos-item-link {
+    width: 100%;
+  }
+  .mergaret-phelps__videos-item-img {
+    min-width: 100%;
+    max-height: 160px;
+    border-radius: 14px;
+  }
 }/*# sourceMappingURL=MargaretPhelpsVideos.css.map */

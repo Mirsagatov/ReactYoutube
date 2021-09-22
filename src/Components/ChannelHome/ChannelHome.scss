@@ -105,9 +105,53 @@ color: #C2C2C2;
       }
 
   }
+
+  &-item:last-child  {
+      display: none;
+  }
 }
 
 .channel-navbar-item-link:hover {
     color: #ff0000;
     text-decoration: underline #ff0000;
 }
+
+
+
+
+@media only screen and (max-width: 475px) {
+    .channel-home {
+        width: 100%;
+    &__video-info {
+        display: none;
+    }
+
+
+    
+}
+.channel-navbar {
+    width: 100%;
+  &-list{
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }  
+
+  &-item:nth-child(4),
+  &-item:nth-child(5),
+  &-item:nth-child(6),
+  &-item:nth-child(7) {
+
+    
+    display: none;
+    
+
+  }
+
+  &-item:last-child {
+      display: block;
+  }
+}
+
+  }

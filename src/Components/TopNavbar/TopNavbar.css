@@ -72,4 +72,65 @@
 .create, .youtubeapps, .notifications {
   max-width: 27px;
   max-height: 32px;
+}
+
+@media only screen and (max-width: 475px) {
+  .top-navbar {
+    padding: 0;
+  }
+  .top-navbar__youtube-accesses {
+    width: 64%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .top-navbar__youtube-home {
+    width: 18%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .top-navbar__youtube-home-link {
+    margin-left: 10px;
+  }
+  .top-navbar__youtube-search {
+    position: none;
+  }
+  .top-navbar__search-input {
+    display: none;
+  }
+  .top-navbar__youtube-search-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: none;
+  }
+  .top-navbar__youtube-essentials {
+    width: 17%;
+  }
+  .top-navbar__essentials-list {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .top-navbar__essentials-item:nth-child(1), .top-navbar__essentials-item:nth-child(2), .top-navbar__essentials-item:nth-child(3) {
+    display: none;
+  }
+  .top-navbar__essentials-link {
+    display: block;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .top-navbar__essentials-link:last-child {
+    width: 42px;
+    height: 42px;
+  }
+  .top-navbar__essentials-userpicture {
+    width: 42px;
+    height: 42px;
+  }
 }/*# sourceMappingURL=TopNavbar.css.map */

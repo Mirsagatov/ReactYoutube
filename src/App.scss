@@ -25,3 +25,12 @@ hr {
     border-color: rgba(216, 216, 216, 0.5);
 }
 
+@media only screen and (max-width: 475px) {
+    .container {
+        max-width: 475px;
+        margin: 0 auto;
+    }
+   
+    
+
+  }

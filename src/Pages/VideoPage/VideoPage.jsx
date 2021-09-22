@@ -5,6 +5,7 @@ import NextVideos from "../../Components/NextVideos/NextVideos";
 import TopNavbar from "../../Components/TopNavbar/TopNavbar";
 
 import "./VideoPage.scss";
+import SecondaryNavbar from "../../Components/SecondaryNavbar/SecondaryNavbar";
 
 function VideoPage() {
     return(
@@ -17,6 +18,10 @@ function VideoPage() {
           < Comment />
         </div>
         <NextVideos />
+      </div>
+
+      <div className="footer-navbar">
+      <SecondaryNavbar />
       </div>
         </>
     )

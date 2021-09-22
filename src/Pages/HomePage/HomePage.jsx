@@ -18,6 +18,7 @@ function HomePage() {
           <FoodAndDrink />
         </div>
       </div>
+      
         </>
     )
 }

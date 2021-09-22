@@ -64,4 +64,53 @@
   padding: 8px 16px;
   border: none;
   margin-top: 20px;
+}
+
+@media only screen and (max-width: 475px) {
+  .comment {
+    width: 100%;
+    border-top: 2px solid #C2C2C2;
+    border-bottom: 2px solid #C2C2C2;
+    padding-bottom: 8px;
+    margin-top: 40px;
+    margin-bottom: 25px;
+  }
+  .comment-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .comment-header-main {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .comment-logo {
+    max-width: 70px;
+    max-height: 70px;
+    margin-top: 12px;
+  }
+  .comment-main {
+    width: 90%;
+    margin-left: 15px;
+  }
+  .comment-main__content {
+    display: none;
+  }
+  .comment-main__showmore-btn {
+    display: none;
+  }
+  .comment-subscribe-btn {
+    color: #FF0000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 0px;
+    padding: 0;
+    border: none;
+    margin-top: 40px;
+  }
 }/*# sourceMappingURL=Comment.css.map */
