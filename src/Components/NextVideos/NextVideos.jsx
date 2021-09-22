@@ -11,12 +11,14 @@ function NextVideos() {
 
 
     const [video, setVideo] = React.useState([]);
+    const [loading, setLoading] =React.useState(true);
 
     React.useEffect(() => {
         fetch('https://jsonplaceholder.typicode.com/photos').then((response) =>
         response.json()).then((data) => {
             const slicedVideos =data.slice(0, 5);
             setVideo(slicedVideos);
+            setLoading(false);
         })
     }, []);
 
@@ -35,6 +37,8 @@ function NextVideos() {
             </div>
             </div>
             <ul className="next__videos-list">
+
+            {loading && <div>Loading ...</div>}
                 { video.length && 
                 video.map((row) => (
                     <li className="next__videos-item" key={row.id}>
