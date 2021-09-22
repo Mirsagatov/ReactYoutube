@@ -8,7 +8,7 @@ import More from "../Lib/Svg/VideoPlayerSvg/More";
 function VideoPlayer() {
     return (
         <div className="video-player">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/6lt2JfJdGSY" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/6lt2JfJdGSY" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
             <h1 className="video-player__title">Dude You Re Getting A Telescope </h1>
             <div className="video-player__stats">
                 <h2 className="video-player__stats-title">123k views</h2>

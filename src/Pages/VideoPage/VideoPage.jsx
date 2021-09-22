@@ -17,7 +17,9 @@ function VideoPage() {
           <hr/>
           < Comment />
         </div>
+        <div className="next-video-player">
         <NextVideos />
+        </div>
       </div>
 
       <div className="footer-navbar">

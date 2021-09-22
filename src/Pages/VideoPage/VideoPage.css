@@ -6,11 +6,16 @@
   margin-top: 40px;
 }
 .video-player-main__searched-themes {
-  min-width: 64%;
+  min-width: 55%;
 }
 
 .footer-navbar {
   display: none;
+}
+
+.next-video-player {
+  width: 50%;
+  margin-left: 40px;
 }
 
 @media only screen and (max-width: 475px) {
@@ -25,6 +30,11 @@
 
   hr {
     display: none;
+  }
+
+  .next-video-player {
+    width: 100%;
+    margin-left: 0px;
   }
 
   .footer-navbar {
