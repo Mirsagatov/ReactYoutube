@@ -52,7 +52,7 @@ function TopNavbar() {
                     </li>
                     <li className="top-navbar__essentials-item">
                         <NavLink to="/channel" className="top-navbar__essentials-link">
-                            <img width="40px" height="40px" src={UserPicture} alt="User Picture" className="top-navbar__essentials-userpicture" /> 
+                            <img width="40px" height="40px" src={UserPicture} alt="User Pict" className="top-navbar__essentials-userpicture" /> 
                         </NavLink>
                     </li>
                 </ul>
