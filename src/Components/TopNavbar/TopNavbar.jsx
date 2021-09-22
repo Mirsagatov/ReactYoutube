@@ -27,7 +27,7 @@ function TopNavbar() {
 
                 <div className="top-navbar__youtube-seach">
                     <input type="text" name="search" placeholder="Search" className="top-navbar__search-input" />
-                    <a href="#" className="top-navbar__youtube-search-link">
+                    <a href="#link" className="top-navbar__youtube-search-link">
                         <Search />
                     </a>
                 </div>
@@ -36,17 +36,17 @@ function TopNavbar() {
             <div className="top-navbar__youtube-essentials">
                 <ul className="top-navbar__essentials-list">
                     <li className="top-navbar__essentials-item">
-                        <a href="#" className="top-navbar__essentials-link">
+                        <a href="#link" className="top-navbar__essentials-link">
                             <Create className="create" />
                         </a>
                     </li>
                     <li className="top-navbar__essentials-item">
-                        <a href="#" className="top-navbar__essentials-link">
+                        <a href="#link" className="top-navbar__essentials-link">
                             <YoutubeApps className="youtubeapps" />
                         </a>
                     </li>
                     <li className="top-navbar__essentials-item">
-                        <a href="#" className="top-navbar__essentials-link">
+                        <a href="#link" className="top-navbar__essentials-link">
                             <Notifications className="notifications" />
                         </a>
                     </li>

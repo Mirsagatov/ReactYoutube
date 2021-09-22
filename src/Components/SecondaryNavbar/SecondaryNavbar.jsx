@@ -56,43 +56,43 @@ function SecondaryNavbar() {
         
         <ul className="secondary-navbar__secondary-list">
             <li className="secondary-navbar__secondary-item">
-                <a href="#" className="secondary-navbar__secondary-item-link">
+                <a href="#link" className="secondary-navbar__secondary-item-link">
                     <Library />
                     <h2 className="secondary-navbar__secondary-item-title">Library</h2>
                 </a>
             </li>
             <li className="secondary-navbar-secondary-item">
-                <a href="#" className="secondary-navbar__secondary-item-link">
+                <a href="#link" className="secondary-navbar__secondary-item-link">
                     <History />
                     <h2 className="secondary-navbar__secondary-item-title">History</h2>
                 </a>
             </li>
             <li className="secondary-navbar-secondary-item">
-                <a href="#" className="secondary-navbar__secondary-item-link">
+                <a href="#link" className="secondary-navbar__secondary-item-link">
                     <WatchLater />
                     <h2 className="secondary-navbar__secondary-item-title">Watch later</h2>
                 </a>
             </li>
             <li className="secondary-navbar-secondary-item">
-                <a href="#" className="secondary-navbar__secondary-item-link">
+                <a href="#link" className="secondary-navbar__secondary-item-link">
                     <Favourities />
                     <h2 className="secondary-navbar__secondary-item-title">Favourities</h2>
                 </a>
             </li>
             <li className="secondary-navbar-secondary-item">
-                <a href="#" className="secondary-navbar__secondary-item-link">
+                <a href="#link" className="secondary-navbar__secondary-item-link">
                     <LikedVideos />
                     <h2 className="secondary-navbar__secondary-item-title">Liked videos</h2>
                 </a>
             </li>
             <li className="secondary-navbar-secondary-item">
-                <a href="#" className="secondary-navbar__secondary-item-link">
+                <a href="#link" className="secondary-navbar__secondary-item-link">
                     <Music />
                     <h2 className="secondary-navbar__secondary-item-title">Music</h2>
                 </a>
             </li>
             <li className="secondary-navbar-secondary-item">
-                <a href="#" className="secondary-navbar__secondary-item-link">
+                <a href="#link" className="secondary-navbar__secondary-item-link">
                     <Games />
                     <h2 className="secondary-navbar__secondary-item-title">Games</h2>
                 </a>
@@ -154,7 +154,7 @@ function SecondaryNavbar() {
             </ul>
         </div>
     
-        <a href="#" className="secondary-navbar__setting-link">
+        <a href="#link" className="secondary-navbar__setting-link">
             <Setting />
             <h2 className="secondary-navbar__setting-title">Setting</h2>
         </a>

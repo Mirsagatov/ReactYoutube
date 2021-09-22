@@ -10,8 +10,6 @@ import RightArrow from "../Lib/Svg/DollieBlairVideosSvg/RightArrow";
 
 import {NavLink} from "react-router-dom";
 
-import Loading from "../Lib/Svg/Loading";
-
 function FoodAndDrink() {
 
 
